@@ -1,0 +1,11 @@
+com/dilip/orderservice/dto/OrderLineItemsDto.class
+com/dilip/orderservice/controller/OrderController.class
+com/dilip/orderservice/OrderServiceApplication.class
+com/dilip/orderservice/dto/InventoryResponse$InventoryResponseBuilder.class
+com/dilip/orderservice/model/Order.class
+com/dilip/orderservice/repository/OrderRepository.class
+com/dilip/orderservice/config/WebClientConfig.class
+com/dilip/orderservice/service/OrderService.class
+com/dilip/orderservice/dto/OrderRequest.class
+com/dilip/orderservice/dto/InventoryResponse.class
+com/dilip/orderservice/model/OrderLineItems.class

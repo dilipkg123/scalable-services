@@ -1,0 +1,10 @@
+/Users/dilipkg/Personal/BITSPilani/scalableServices/Assignment/scalable-service-microservice/scalable-services/order-service/src/main/java/com/dilip/orderservice/dto/InventoryResponse.java
+/Users/dilipkg/Personal/BITSPilani/scalableServices/Assignment/scalable-service-microservice/scalable-services/order-service/src/main/java/com/dilip/orderservice/dto/OrderLineItemsDto.java
+/Users/dilipkg/Personal/BITSPilani/scalableServices/Assignment/scalable-service-microservice/scalable-services/order-service/src/main/java/com/dilip/orderservice/controller/OrderController.java
+/Users/dilipkg/Personal/BITSPilani/scalableServices/Assignment/scalable-service-microservice/scalable-services/order-service/src/main/java/com/dilip/orderservice/dto/OrderRequest.java
+/Users/dilipkg/Personal/BITSPilani/scalableServices/Assignment/scalable-service-microservice/scalable-services/order-service/src/main/java/com/dilip/orderservice/model/OrderLineItems.java
+/Users/dilipkg/Personal/BITSPilani/scalableServices/Assignment/scalable-service-microservice/scalable-services/order-service/src/main/java/com/dilip/orderservice/service/OrderService.java
+/Users/dilipkg/Personal/BITSPilani/scalableServices/Assignment/scalable-service-microservice/scalable-services/order-service/src/main/java/com/dilip/orderservice/config/WebClientConfig.java
+/Users/dilipkg/Personal/BITSPilani/scalableServices/Assignment/scalable-service-microservice/scalable-services/order-service/src/main/java/com/dilip/orderservice/model/Order.java
+/Users/dilipkg/Personal/BITSPilani/scalableServices/Assignment/scalable-service-microservice/scalable-services/order-service/src/main/java/com/dilip/orderservice/repository/OrderRepository.java
+/Users/dilipkg/Personal/BITSPilani/scalableServices/Assignment/scalable-service-microservice/scalable-services/order-service/src/main/java/com/dilip/orderservice/OrderServiceApplication.java

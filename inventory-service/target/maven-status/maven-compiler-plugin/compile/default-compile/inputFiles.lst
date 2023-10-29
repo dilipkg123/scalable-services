@@ -1,0 +1,6 @@
+/Users/dilipkg/Personal/BITSPilani/scalableServices/Assignment/scalable-service-microservice/scalable-services/inventory-service/src/main/java/com/dilip/inventoryservice/repository/InventoryRepository.java
+/Users/dilipkg/Personal/BITSPilani/scalableServices/Assignment/scalable-service-microservice/scalable-services/inventory-service/src/main/java/com/dilip/inventoryservice/model/Inventory.java
+/Users/dilipkg/Personal/BITSPilani/scalableServices/Assignment/scalable-service-microservice/scalable-services/inventory-service/src/main/java/com/dilip/inventoryservice/dto/InventoryResponse.java
+/Users/dilipkg/Personal/BITSPilani/scalableServices/Assignment/scalable-service-microservice/scalable-services/inventory-service/src/main/java/com/dilip/inventoryservice/controller/InventoryController.java
+/Users/dilipkg/Personal/BITSPilani/scalableServices/Assignment/scalable-service-microservice/scalable-services/inventory-service/src/main/java/com/dilip/inventoryservice/InventoryServiceApplication.java
+/Users/dilipkg/Personal/BITSPilani/scalableServices/Assignment/scalable-service-microservice/scalable-services/inventory-service/src/main/java/com/dilip/inventoryservice/service/InventoryService.java
