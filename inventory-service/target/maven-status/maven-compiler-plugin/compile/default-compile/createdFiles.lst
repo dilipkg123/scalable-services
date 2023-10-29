@@ -1,7 +1,0 @@
-com/dilip/inventoryservice/model/Inventory.class
-com/dilip/inventoryservice/repository/InventoryRepository.class
-com/dilip/inventoryservice/service/InventoryService.class
-com/dilip/inventoryservice/dto/InventoryResponse.class
-com/dilip/inventoryservice/InventoryServiceApplication.class
-com/dilip/inventoryservice/dto/InventoryResponse$InventoryResponseBuilder.class
-com/dilip/inventoryservice/controller/InventoryController.class
