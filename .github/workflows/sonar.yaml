@@ -15,15 +15,15 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Set up JDK 11
+      - name: Set up JDK 17
         uses: actions/setup-java@v2
         with:
-          java-version: 11
-          distribution: 'adopt'
+          java-version: 17
+          distribution: 'temurin'
 
       - name: Build with Maven
-        run: mvn clean install
-#        run: mvn -B package --file pom.xml
+#        run: mvn clean install
+        run: mvn -B package --file pom.xml
 
   test:
     runs-on: ubuntu-latest
@@ -31,15 +31,15 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Set up JDK 11
+      - name: Set up JDK 17
         uses: actions/setup-java@v2
         with:
-          java-version: 11
-          distribution: 'adopt'
+          java-version: 17
+          distribution: 'temurin'
 
       - name: Test with Maven
-        run: mvn clean install
-#        run: mvn -B test --file pom.xml
+#        run: mvn clean install
+        run: mvn -B test --file pom.xml
 
   lint:
     runs-on: ubuntu-latest
@@ -47,11 +47,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Set up JDK 11
+      - name: Set up JDK 17
         uses: actions/setup-java@v2
         with:
-          java-version: 11
-          distribution: 'adopt'
+          java-version: 17
+          distribution: 'temurin'
 
       - name: Lint with SonarCloud
         run: mvn sonar:sonar -Dsonar.projectKey=YOUR_PROJECT_KEY -Dsonar.organization=YOUR_ORGANIZATION_KEY -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=${{ secrets.SONAR_TOKEN }}
