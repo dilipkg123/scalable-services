@@ -15,47 +15,38 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Install dependencies
-        run: npm install
+      - name: Set up JDK 11
+        uses: actions/setup-java@v2
+        with:
+          java-version: 11
 
-      - name: Build
-        run: npm run build
+      - name: Build with Maven
+        run: mvn -B package --file pom.xml
 
   test:
     runs-on: ubuntu-latest
-    needs: build
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Install dependencies
-        run: npm install
+      - name: Set up JDK 11
+        uses: actions/setup-java@v2
+        with:
+          java-version: 11
 
-      - name: Run tests
-        run: npm test
+      - name: Test with Maven
+        run: mvn -B test --file pom.xml
 
   lint:
     runs-on: ubuntu-latest
-    needs: build
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Install dependencies
-        run: npm install
+      - name: Set up JDK 11
+        uses: actions/setup-java@v2
+        with:
+          java-version: 11
 
-      - name: Lint code
-        run: npm run lint
-
-  sonarcloud:
-    runs-on: ubuntu-latest
-    needs: [build, test, lint]
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: SonarCloud Scan
-        uses: sonarsource/sonarcloud-github-action@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+      - name: Lint with SonarCloud
+        run: mvn sonar:sonar -Dsonar.projectKey=YOUR_PROJECT_KEY -Dsonar.organization=YOUR_ORGANIZATION_KEY -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=${{ secrets.SONAR_TOKEN }}
